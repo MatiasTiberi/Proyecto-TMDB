@@ -2,13 +2,61 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.03125rem;
+  line-height: 1.5rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: rgb(254, 177, 52);
+}
+
+h2 {
+  font-size: 3rem;
+  color: rgb(254, 177, 52);
+}
+
+h3 {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
 }
 
 a {
-  color: inherit;
+  color: rgb(0, 112, 243);
   text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+a:hover {
+  color: rgb(162, 198, 246);
+}
+
+button {
+  background-color: rgb(254, 177, 52);
+  padding: 0 32px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0.02rem;
+  border-radius: 0.3rem;
+  border: none;
+  cursor: pointer;
+  height: 3rem;
+}
+
+button:hover {
+  background-color: rgb(254, 169, 32);
 }
 
 * {
